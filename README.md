@@ -53,8 +53,6 @@ Returns JWT Auth Token ```(application/json)```
 }
 ```
 ---
-<br />
-
 ### **URL**: `/api/v1/users/signin`
 
 
