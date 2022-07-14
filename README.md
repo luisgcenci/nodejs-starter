@@ -57,7 +57,7 @@ TOKEN_KEY="RANDOMSTRING"
 ```node server.js```
 
 # Endpoints
-### **URL**: `/api/v1/users/signup`
+### **URL**: `/api/v1/user/signup`
 
 **Method** : `POST`
 
@@ -86,7 +86,7 @@ Returns JWT Auth Token `(application/json)`
 }
 ```
 ---
-### **URL**: `/api/v1/users/signin`
+### **URL**: `/api/v1/user/signin`
 
 **Method** : `POST`
 
@@ -115,7 +115,7 @@ Returns JWT Auth Token `(Application JSON)`
 }
 ```
 ---
-### **URL**: `/api/v1/users/updateusername`
+### **URL**: `/api/v1/user/updateusername`
 
 **Method** : `POST`
 
@@ -149,7 +149,7 @@ Returns user object  `(application/json)`
 }
 ```
 ---
-### **URL**: `/api/v1/users/updatepassword`
+### **URL**: `/api/v1/user/updatepassword`
 
 **Method** : `POST`
 
@@ -183,7 +183,7 @@ Returns user object `(Application JSON)`
 }
 ```
 ---
-### **URL**: `/api/v1/users/deleteuser`
+### **URL**: `/api/v1/user/deleteuser`
 
 **Method** : `DELETE`
 
