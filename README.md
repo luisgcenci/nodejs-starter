@@ -1,17 +1,3 @@
-<style>
-responseType{
-    display: inline-block;
-    color: #002947;
-    font-size: 12px;
-    margin-left: 0.5em;
-    padding: 0.2em 0.5em;
-    border-radius: 2px;
-    border: 1px solid #e9eef3;
-    background-color: #fbfbfc;
-    font-family: courier new,courier,monospace;
-}
-</style>
-
 # NodeJS Backend App - Starter
 NodeJS app on express framework backed by a MongoDB database following MVC pattern. Includes User Model with CRUD services, as well basic signin/signup endpoints.
 
@@ -57,8 +43,7 @@ TOKEN_KEY="RANDOMSTRING"
 
 **Code** : `201 OK` 
 
-Returns JWT Auth Token
-<responseType>application/json</responseType>
+Returns JWT Auth Token ```(application/json)```
 
 **Content example**
 
@@ -90,8 +75,7 @@ Returns JWT Auth Token
 
 **Code** : `201 OK`
 
-Returns JWT Auth Token
-<responseType>Application JSON</responseType>
+Returns JWT Auth Token ```(application/json)```
 
 **Content example**
 
@@ -121,10 +105,9 @@ Returns JWT Auth Token
 
 ## Success Response
 
-**Code** : <responseCode>201 OK</responseCode>
+**Code** : `201 OK`
 
-Returns user object
-<responseType>Application JSON</responseType>
+Returns user object ```(application/json)```
 
 **Content example**
 
@@ -158,10 +141,9 @@ Returns user object
 
 ## Success Response
 
-**Code** : <responseCode>201 OK</responseCode>
+**Code** : `201 OK`
 
-Returns user object
-<responseType>Application JSON</responseType>
+Returns user object ```(application/json)```
 
 **Content example**
 
@@ -194,10 +176,9 @@ Returns user object
 
 ## Success Response
 
-**Code** : <responseCode>201 OK</responseCode>
+**Code** : `201 OK`
 
-Returns the count of users deleted.
-<responseType>Application JSON</responseType>
+Returns the count of users deleted ```(application/json)```
 
 **Content example**
 
