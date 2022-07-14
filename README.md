@@ -1,5 +1,5 @@
 # NodeJS Backend App - Starter
-NodeJS app on express framework backed by a MongoDB database following MVC pattern. Includes User Model with CRUD services, as well basic signin/signup endpoints.
+NodeJS app on express framework backed by a MongoDB database following MVC pattern. Includes User Model with CRUD services, as well signin/signup endpoints. Passwords are encrypted using bcryptjs.
 
 # Minimum Dependencies
 [NodeJS](https://nodejs.org/en/download/) \
@@ -76,7 +76,11 @@ TOKEN_KEY="RANDOMSTRING"
 
 **Code** : `201 OK` 
 
+<<<<<<< HEAD
 Returns JWT Auth Token `(application/json)`
+=======
+Returns JWT Auth Token ```(application/json)```
+>>>>>>> 72382fcca376954bdd74248b1ccf4091955084a5
 
 **Content example**
 
@@ -86,10 +90,7 @@ Returns JWT Auth Token `(application/json)`
 }
 ```
 ---
-<br />
-
 ### **URL**: `/api/v1/users/signin`
-
 
 **Method** : `POST`
 
@@ -108,7 +109,11 @@ Returns JWT Auth Token `(application/json)`
 
 **Code** : `201 OK`
 
+<<<<<<< HEAD
 Returns JWT Auth Token `(Application JSON)`
+=======
+Returns JWT Auth Token ```(application/json)```
+>>>>>>> 72382fcca376954bdd74248b1ccf4091955084a5
 
 **Content example**
 
@@ -118,8 +123,6 @@ Returns JWT Auth Token `(Application JSON)`
 }
 ```
 ---
-<br />
-
 ### **URL**: `/api/v1/users/updateusername`
 
 **Method** : `POST`
@@ -140,7 +143,11 @@ Returns JWT Auth Token `(Application JSON)`
 
 **Code** : `201 OK`
 
+<<<<<<< HEAD
 Returns user object  `(application/json)`
+=======
+Returns user object ```(application/json)```
+>>>>>>> 72382fcca376954bdd74248b1ccf4091955084a5
 
 **Content example**
 
@@ -154,8 +161,6 @@ Returns user object  `(application/json)`
 }
 ```
 ---
-<br />
-
 ### **URL**: `/api/v1/users/updatepassword`
 
 **Method** : `POST`
@@ -176,7 +181,11 @@ Returns user object  `(application/json)`
 
 **Code** : `201 OK`
 
+<<<<<<< HEAD
 Returns user object `(Application JSON)`
+=======
+Returns user object ```(application/json)```
+>>>>>>> 72382fcca376954bdd74248b1ccf4091955084a5
 
 **Content example**
 
@@ -190,8 +199,6 @@ Returns user object `(Application JSON)`
 }
 ```
 ---
-<br />
-
 ### **URL**: `/api/v1/users/deleteuser`
 
 **Method** : `DELETE`
@@ -211,7 +218,11 @@ Returns user object `(Application JSON)`
 
 **Code** : `201 OK`
 
+<<<<<<< HEAD
 Returns the count of users deleted. `(Application JSON)`
+=======
+Returns the count of users deleted ```(application/json)```
+>>>>>>> 72382fcca376954bdd74248b1ccf4091955084a5
 
 **Content example**
 
