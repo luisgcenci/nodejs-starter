@@ -8,9 +8,9 @@ module.exports = class User{
             const data = req.body;
             const createdUser = await UserService.createUser(data);
 
-            if (!createdUser) return res.status(401).send('Invalid Email/Password.');
+            if (!createdUser) return res.status(400).send('Invalid Email/Password.');
 
-            return res.status(201).json(createdUser);
+            return res.status(201).json({"jwt_token": createdUser});
         }catch (err){
             console.log(err);
             res.status(500).send(err);

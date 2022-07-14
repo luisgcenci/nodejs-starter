@@ -7,12 +7,11 @@ const users = require('./routes/User.routes');
 
 //app
 const express = require('express');
-const bodyParser = require('body-parser');
 const app = express();
 const port = 5000;
 
-// app.use(express.urlencoded({extended: false}));
-// app.use(cors());
+//bodyParser
+const bodyParser = require('body-parser');
 app.use(express.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
