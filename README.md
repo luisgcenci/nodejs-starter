@@ -55,7 +55,6 @@ Returns JWT Auth Token ```(application/json)```
 ---
 ### **URL**: `/api/v1/users/signin`
 
-
 **Method** : `POST`
 
 **Auth required** : NO
@@ -83,8 +82,6 @@ Returns JWT Auth Token ```(application/json)```
 }
 ```
 ---
-<br />
-
 ### **URL**: `/api/v1/users/updateusername`
 
 **Method** : `POST`
@@ -119,8 +116,6 @@ Returns user object ```(application/json)```
 }
 ```
 ---
-<br />
-
 ### **URL**: `/api/v1/users/updatepassword`
 
 **Method** : `POST`
@@ -155,8 +150,6 @@ Returns user object ```(application/json)```
 }
 ```
 ---
-<br />
-
 ### **URL**: `/api/v1/users/deleteuser`
 
 **Method** : `DELETE`
