@@ -1,5 +1,5 @@
 # NodeJS Backend App - Starter
-NodeJS app on express framework backed by a MongoDB database following MVC pattern. Includes User Model with CRUD services, as well basic signin/signup endpoints.
+NodeJS app on express framework backed by a MongoDB database following MVC pattern. Includes User Model with CRUD services, as well signin/signup endpoints. Passwords are encrypted using bcryptjs.
 
 # Minimum Dependencies
 [NodeJS](https://nodejs.org/en/download/) \
