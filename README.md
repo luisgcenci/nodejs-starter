@@ -76,11 +76,7 @@ TOKEN_KEY="RANDOMSTRING"
 
 **Code** : `201 OK` 
 
-<<<<<<< HEAD
 Returns JWT Auth Token `(application/json)`
-=======
-Returns JWT Auth Token ```(application/json)```
->>>>>>> 72382fcca376954bdd74248b1ccf4091955084a5
 
 **Content example**
 
@@ -109,11 +105,7 @@ Returns JWT Auth Token ```(application/json)```
 
 **Code** : `201 OK`
 
-<<<<<<< HEAD
 Returns JWT Auth Token `(Application JSON)`
-=======
-Returns JWT Auth Token ```(application/json)```
->>>>>>> 72382fcca376954bdd74248b1ccf4091955084a5
 
 **Content example**
 
@@ -143,11 +135,7 @@ Returns JWT Auth Token ```(application/json)```
 
 **Code** : `201 OK`
 
-<<<<<<< HEAD
 Returns user object  `(application/json)`
-=======
-Returns user object ```(application/json)```
->>>>>>> 72382fcca376954bdd74248b1ccf4091955084a5
 
 **Content example**
 
@@ -181,11 +169,7 @@ Returns user object ```(application/json)```
 
 **Code** : `201 OK`
 
-<<<<<<< HEAD
 Returns user object `(Application JSON)`
-=======
-Returns user object ```(application/json)```
->>>>>>> 72382fcca376954bdd74248b1ccf4091955084a5
 
 **Content example**
 
@@ -218,11 +202,7 @@ Returns user object ```(application/json)```
 
 **Code** : `201 OK`
 
-<<<<<<< HEAD
 Returns the count of users deleted. `(Application JSON)`
-=======
-Returns the count of users deleted ```(application/json)```
->>>>>>> 72382fcca376954bdd74248b1ccf4091955084a5
 
 **Content example**
 
